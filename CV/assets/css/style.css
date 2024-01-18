@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(98, 147, 211);
+}
+
+
+header{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+#icon img {
+    height: 80px;
+    width: 80px;
+    margin-top: 2px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+#icon {
+    text-align: right;
+}
+
+h1 {
+    margin-left: 40px;
+    vertical-align: baseline;
+}
+
+nav {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    margin-right: 20px;
+}
+
+main {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    background: linear-gradient(to bottom right, rgb(56, 147, 207),rgb(40, 156, 202));
+}
+
+#me img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid;
+    border-radius: 15px;
+}
+
+#me {
+    margin-left: 15px;
+    margin-bottom: 18px;
+}
+
+main #intro #description {
+    width: 55%;
+    text-align: center;
+}
+
+main .contact {
+    columns: 2;
+    list-style-type: none;
+    column-rule: dotted;
+    padding: 0;
+    margin-top: 80px;
+    margin-right: 170px;
+    width: 100%;
+}
+
+.text-black{
+    color: black;
+}
+
+main #me {
+    float: left;
+}
+
+a {
+    color : black;
+    text-decoration-color: black;
+}
+
+aside {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: linear-gradient(to bottom right, rgb(56, 147, 207),rgb(40, 156, 202));
+}
+
+h2, p, li {
+    margin-left: 20px;
+}
+
+div {
+    margin-right: 100px;
+}
+
+.skills{
+    list-style-type: none;
+    padding: 0;
+    letter-spacing: 1px;
+    margin: 0 0 1rem;
+    text-align: left;
+}
+
+@media (max-width: 850px) {
+    aside {
+        flex-direction: column;
+    }
+}
+@media (max-width: 850px) {
+    main {
+        flex-direction: column;
+    }
+}
+
